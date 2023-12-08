@@ -8,5 +8,5 @@
 5. press "n" key to load next image
 6. press "r" to redraw contour on the same image
 
-it will save image with contours in folder processed images
-it will export contour lenght in excel 
+it will save image with contours in folder processed images,
+it will export contour lenght in excel names "contour_lengths.xlsx"
