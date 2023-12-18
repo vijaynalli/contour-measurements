@@ -19,6 +19,7 @@ if not os.path.exists(folder_name):
     print(f"Folder '{folder_name}' created successfully.")
 
 # Initialize variables.
+i=0 #countour id
 current_index = 0
 total_images = len(image_files)
 data_excel=[]
@@ -85,7 +86,7 @@ while True:
     total_list=[]
     contour_number = 1
     prev_x, prev_y, total_length = None, None, 0.0
-    i=0
+    
 
     cv2.namedWindow("Image")
     cv2.setMouseCallback("Image", mouse_callback)
